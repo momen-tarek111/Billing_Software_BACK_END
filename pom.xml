@@ -95,6 +95,11 @@
 			<artifactId>stripe-java</artifactId>
 			<version>24.16.0</version>
 		</dependency>
+		<dependency>
+			<groupId>io.github.cdimascio</groupId>
+			<artifactId>dotenv-java</artifactId>
+			<version>3.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -107,7 +112,6 @@
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-							<version>1.18.42</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
@@ -120,7 +124,6 @@
 						<exclude>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-							<version>1.18.42</version>
 						</exclude>
 					</excludes>
 				</configuration>
